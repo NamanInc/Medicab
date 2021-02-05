@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">MedicabDriver</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="password_prompt">Password</string>
+    <string name="email_prompt">Email</string>
+    <string name="login_text">Login</string>
+    <string name="app_icon">App Icon</string>
+    <string name="signup_prompt">Wanna Create A New Account? Signup</string>
+    <string name="login_prompt">Already Have an Accoun? Login</string>
+    <string name="title_activity_driver_home_page">Map</string>
+    <string name="request_received">Request Received</string>
+    <string name="reject">Reject</string>
+    <string name="accept">Accept</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="title_activity_customer_home_page">Map</string>
+    <string name="pickup_address_prompt">Enter Pickup Address</string>
+    <string name="hospital_address_prompt">Enter Hospital Name</string>
+    <string name="map_locate_button">Locate on Map</string>
+    <string name="confirm_button_text">Confirm Pickup Point</string>
+    <string name="map_location_marker">Map Location Marker</string>
+    <string name="google_maps_key">AIzaSyD2p4aMTdoIYSK6ghNv4PPqzV8vOCOUJAE</string>
+    <string name="search_now_button_prompt">Search Now</string>
+    <string name="ambulance_selection_heading">Select a Type of Ambulance</string>
+    <string name="ambulance_type_image_description">Ambulance Type Image</string>
+    <string name="locate_on_map_prompt">Locate on Map</string>
+    <string name="confirm_locations_button_prompt">Confirm Locations</string>
+    <string name="pickup_location_icon">Pickup Location Icon</string>
+    <string name="hospital_location_icon">Hospital Location Icon</string>
+    <string name="path_icon">Path Icon</string>
+    <string name="payment_method_prompt">Payment Method</string>
+    <string name="book_ambulance_button_text">Book Ambulance</string>
+    <string name="finding_ambulance_text">Finding Ambulance</string>
+    <string name="title_activity_locate_pickup_on_map">Map</string>
+    <string name="confirm_location">Confirm Location</string>
+    <string name="title_activity_driver_found">Map</string>
+    <string name="debit_credit_card">Debit/Credit Card</string>
+    <string name="pay_using_a_credit_or_debit_card">Add Card Details</string>
+    <string name="wallets">Wallets</string>
+    <string name="upi_methods">UPI Methods</string>
+    <string name="enter_card_detais">Enter Card Detais</string>
+    <string name="card_number">Card Number</string>
+    <string name="enter_cvv">Enter CVV</string>
+    <string name="enter_card_holder_s_name">Enter Card Holder\'s Name</string>
+    <string name="enter_card_number">Enter Card Number</string>
+    <string name="enter_expiry_date_mm_yy">Enter Expiry Date (MM/YY)</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="by">By continuing you may receive an SMS for verification. Message and data rates may apply.</string>
+    <string name="close">close</string>
+    <string name="open">close</string>
+    <string name="by_continuing_i_confirm_that_i_have_read_and_agree_all_the_terms_and_conditions_and_privacy_policy">By Continuing , I confirm that I have read and agree all the terms and conditions and privacy policy.</string>
+</resources>

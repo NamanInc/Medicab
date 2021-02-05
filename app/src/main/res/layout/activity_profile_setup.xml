@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Profile_setup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="Hi, Complete the Setup Fast !"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:fontFamily="@font/poppins"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="50dp"/>
+
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_height="150dp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="150dp"
+                android:id="@+id/profileImage"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="150dp"
+                android:src="@drawable/avaterdummy"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/edit"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"/>
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+        <ss.anoop.awesometextinputlayout.AwesomeTextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            app:borderWidth="0.8dp"
+
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            app:borderColor="@android:color/black"
+
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/firstname"
+                android:fontFamily="@font/poppins"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="First Name"
+                android:textColorHint="@android:color/black"
+                />
+
+
+
+
+
+        </ss.anoop.awesometextinputlayout.AwesomeTextInputLayout>
+
+        <ss.anoop.awesometextinputlayout.AwesomeTextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+
+            app:borderWidth="0.8dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            app:borderColor="@android:color/black"
+
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/lastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Last Name"
+                android:fontFamily="@font/poppins"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                />
+
+
+
+
+
+        </ss.anoop.awesometextinputlayout.AwesomeTextInputLayout>
+
+        <ss.anoop.awesometextinputlayout.AwesomeTextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            app:borderWidth="0.8dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            app:borderColor="@android:color/black"
+
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/phoneNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone No"
+                android:fontFamily="@font/poppins"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                />
+
+
+
+
+
+        </ss.anoop.awesometextinputlayout.AwesomeTextInputLayout>
+
+        <ss.anoop.awesometextinputlayout.AwesomeTextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            app:borderWidth="0.8dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="20dp"
+            app:borderColor="@android:color/black"
+
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:textColor="@android:color/black"
+                android:id="@+id/emailid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:fontFamily="@font/poppins"
+                android:textColorHint="@android:color/black"
+                />
+
+
+
+
+
+        </ss.anoop.awesometextinputlayout.AwesomeTextInputLayout>
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/nextbtn"
+            app:cardElevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="#1273EB">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Next"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="@font/poppins"
+                    android:textSize="19sp"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/next"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+
+                    android:layout_marginRight="30dp"/>
+
+
+
+
+
+            </RelativeLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</ScrollView>
